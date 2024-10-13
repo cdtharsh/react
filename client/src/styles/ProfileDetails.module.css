@@ -1,0 +1,36 @@
+.container {
+    max-width: 800px; /* Set a maximum width for the profile details */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #f9f9f9; /* Light background color for better readability */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+    font-size: 2rem; /* Font size for the title */
+    margin-bottom: 20px; /* Spacing below the title */
+    color: #333; /* Dark color for the title */
+    text-align: center; /* Center the title */
+}
+
+p {
+    font-size: 1.1rem; /* Font size for paragraphs */
+    margin: 10px 0; /* Vertical spacing between paragraphs */
+    color: #555; /* Slightly lighter color for text */
+}
+
+strong {
+    color: #333; /* Darker color for strong text */
+}
+
+/* Loader styles if needed */
+.loader {
+    display: flex; /* Flexbox for centering */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100px; /* Set height for loader */
+    font-size: 1.2rem; /* Increase font size for loading text */
+    color: #3498db; /* Loading text color */
+}

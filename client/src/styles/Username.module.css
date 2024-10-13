@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: white;
+}
+
+.login-background {
+    background: linear-gradient(135deg, 
+        #FF6B6B, /* Light Red */
+        #FF8E6B, /* Light Orange */
+        #FFB86B, /* Light Yellow */
+        #FFE66D, /* Soft Yellow */
+        #D9FF6B, /* Light Green */
+        #6BFF6B, /* Soft Green */
+        #6BFF8E, /* Soft Mint */
+        #6BBFFF, /* Light Cyan */
+        #6B8EFF, /* Soft Blue */
+        #6B6BFF  /* Light Purple */
+    );
+    background-size: 400% 400%;
+    animation: gradientAnimation 30s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(71, 71, 71, 0.1);
+    width: 100%;
+    max-width: 400px; /* Set max width */
+    padding: 40px 20px; /* Adjust padding */
+}
+
+/* Other existing styles remain unchanged... */
+
+.profile_img {
+    width: 135px;
+    border-radius: 50%;
+}
+
+.textbox {
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 80%; /* Adjust width */
+}
+
+.btn {
+    width: 80%; /* Adjust button width */
+    padding: 10px 0;
+    border-radius: 5px;
+    color: white;
+    background-color: #4f46e5; /* Default color */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .glass {
+        padding: 20px; /* Adjust padding for smaller screens */
+        width: 90%; /* Make it wider on smaller screens */
+    }
+    .textbox, .btn {
+        width: 90%; /* Make textbox and button wider */
+    }
+}
