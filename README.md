@@ -10,6 +10,7 @@ In the Client Folder create .env file and put this code inside it.
 .env
 ```
 REACT_APP_SERVER_DOMAIN='<server_domain>' # example 'http://localhost:8080'
+REACT_APP_GOOGLE_MAPS_API_KEY = key
 ```
 
 
