@@ -5,6 +5,9 @@
 Download this project from above link. Create two configaration files into the project.
 First in the client and second in the server.
 
+
+for admin page go to /admin
+
 In the Client Folder create .env file and put this code inside it.
 
 .env
